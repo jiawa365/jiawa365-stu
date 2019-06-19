@@ -3,5 +3,8 @@
   <groupId>com.jiawa365</groupId>
   <artifactId>jiawa365-stu</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <modules>
+    <module>ssm</module>
+  </modules>
   <packaging>pom</packaging>
 </project>
