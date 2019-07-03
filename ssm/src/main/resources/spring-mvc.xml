@@ -7,7 +7,7 @@
     <context:component-scan base-package="com.jiawa365"></context:component-scan>
 
     <mvc:annotation-driven></mvc:annotation-driven>
-
+    <mvc:default-servlet-handler/>
 
     <!-- 配置国际化资源文件 -->
     <bean id="messageSource"
