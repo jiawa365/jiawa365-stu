@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: eureka-provider
+server:
+  port: 1002
+eureka:
+  client:
+    service-url: {defaultZone: 'http://127.0.0.1:1001/eureka'   }
